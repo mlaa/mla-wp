@@ -17,7 +17,7 @@
     },
      {
       "type": "vcs",
-      "url": "git@github.com:mlaa/profession.git"
+      "url": "git@github.com:mlaa/mla-wp-profession"
     },
      {
       "type": "vcs",
@@ -73,8 +73,9 @@
 	],
    "require": {
    	 "composer/installers": "^1.2",
-     "mlaa/profession": "dev-master#895d0ea",
+     "mlaa/mla-wp-profession": "dev-master#ab7e1d2",
 	   "mlaa/style-center": "dev-master#673ce08",
+	"wpackagist-theme/wp-bootstrap-starter":"3.0.19",
 	   "stuttter/wp-multi-network": "^2.2",
      "johnpbloch/wordpress": "^4.9",
      "wpackagist-plugin/advanced-custom-fields": "4.4.12",
