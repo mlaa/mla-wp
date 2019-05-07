@@ -48,3 +48,8 @@ define('WP_LOGS_DIR', getenv('WP_LOGS_DIR'));
 
 define('REDIS_HOST', getenv('REDIS_HOST'));       // wp-redis
 define('WP_REDIS_HOST', getenv('WP_REDIS_HOST')); // redis-cache
+
+/**
+ * ElasticPress Elasticsearch
+ */
+define('EP_HOST', getenv('EP_HOST'));
