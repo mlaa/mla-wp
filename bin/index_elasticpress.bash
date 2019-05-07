@@ -22,5 +22,3 @@ then
 else
   $all_networks_wp elasticpress index
 fi
-$wp elasticpress-buddypress index_from_all_networks --post-type=humcore_deposit
-$all_networks_wp elasticpress-buddypress index
