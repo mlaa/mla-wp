@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1db025b9285dfc3c89c4dc476955c0be",
-    "content-hash": "42c0526a4b8028f915728a846b4387aa",
+    "hash": "a93cb9ba9fe65a139accbb6895915204",
+    "content-hash": "9bfa8358c47f4e3108014a79fa051f1d",
     "packages": [
         {
             "name": "composer/installers",
@@ -810,15 +810,15 @@
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
-            "version": "3.4.10",
+            "version": "3.4.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ninja-forms/",
-                "reference": "tags/3.4.10"
+                "reference": "tags/3.4.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.4.10.zip",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.4.11.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -949,6 +949,26 @@
             "homepage": "https://wordpress.org/plugins/shareadraft/"
         },
         {
+            "name": "wpackagist-plugin/sparkpost",
+            "version": "3.2.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/sparkpost/",
+                "reference": "tags/3.2.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/sparkpost.3.2.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/sparkpost/"
+        },
+        {
             "name": "wpackagist-plugin/tinymce-advanced",
             "version": "4.8.2",
             "source": {
@@ -1050,7 +1070,7 @@
         },
         {
             "name": "wpackagist-plugin/wp-google-maps",
-            "version": "7.11.21",
+            "version": "7.11.22",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-google-maps/",
@@ -1058,7 +1078,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip?timestamp=1555415116",
+                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip?timestamp=1557305390",
                 "reference": null,
                 "shasum": null
             },
@@ -1221,12 +1241,12 @@
         },
         {
             "name": "wpdatatables",
-            "version": "2.3",
+            "version": "2.2",
             "dist": {
                 "type": "zip",
                 "url": "/tmp/wordpress-packages/wpdatatables.zip",
                 "reference": null,
-                "shasum": "daab8cd947e72afd18f35a19fb1f372fe288c18e"
+                "shasum": "a82ea2fdb0cfa2aa1429fa84a0d67ad518e65ca0"
             },
             "require": {
                 "composer/installers": "~1.0",
