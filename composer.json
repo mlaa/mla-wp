@@ -35,19 +35,6 @@
       "type": "vcs",
       "url": "git@github.com:mlaa/hc-styles.git"
     },
-     {
-      "type": "package",
-      "package": {
-        "name": "mlaa/sparkpost",
-        "version": "dev-hotfix-hc-multinetwork",
-        "type": "wordpress-plugin",
-        "source": {
-          "url": "git@github.com:mlaa/wordpress-sparkpost.git",
-          "type": "git",
-          "reference": "master"
-        }
-      }
-    },
    {
       "type": "package",
       "package": {
@@ -102,7 +89,7 @@
     }
 	],
    "require": {
-	"wpdatatables":"2.3",
+	"wpdatatables":"2.2",
 	"wpbakery/visual-composer": "^5.2",
 	"wpackagist-plugin/formassembly-web-forms":"2.0.4",
  	"wpackagist-plugin/password-protected":"2.2.2",
@@ -153,6 +140,7 @@
      "wpackagist-plugin/wpfront-notification-bar": "^1.7",
      "wpackagist-plugin/options-framework": "^1.8",
      "wpackagist-plugin/shareadraft": "^1.5",
+     "wpackagist-plugin/sparkpost":"3.2.0",
      "wpackagist-plugin/formassembly-web-forms": "^2.0",
      "vlucas/phpdotenv": "^2.4",
      "wpackagist-plugin/formassembly-web-forms":"dev-trunk",
