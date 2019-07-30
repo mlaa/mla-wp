@@ -65,12 +65,12 @@
       "type": "package",
       "package": {
         "name": "mlaa/mla-style-custom",
-        "version": "dev-develop",
+        "version": "dev-master",
         "type": "wordpress-plugin",
         "source": {
           "url": "git@github.com:mlaa/mla-style-custom.git",
           "type": "git",
-          "reference": "develop"
+          "reference": "master"
         }
       }
     },
@@ -102,6 +102,7 @@
     }
 	],
    "require": {
+	"wpackagist-plugin/classic-editor":"1.5",
 	"wordpress/gutenberg":"3.8",
 	"wpackagist-plugin/kadence-blocks":"1.6.2",
 	"wpackagist-plugin/metronet-tag-manager":"1.5.4",
@@ -114,7 +115,7 @@
    	 "composer/installers": "^1.2",
    	 "kreatura/layerslider": "^5.6",
 	 "wpninjas/ninja-forms-pdf-submissions": "^3.0",
-     "mlaa/mla-wp-profession": "dev-master#a8caede",
+     "mlaa/mla-wp-profession": "dev-master#574f3b4",
 	 "mlaa/mla-allowed-tags": "dev-master#b302f21",
 	  "mlaa/mla-style-custom": "dev-master#510e763",
 	"mlaa/style-center": "dev-master#6bc6d4f",
