@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f5673616628e8c2ec3359bbe37781d23",
-    "content-hash": "d8e6cb117c54afefd94800337f64608e",
+    "hash": "b92786aaa3fd5bdd408304f2bd8ddf88",
+    "content-hash": "7d5bffb4e6ff1e7685c644132896f9ab",
     "packages": [
         {
             "name": "composer/installers",
@@ -293,10 +293,10 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/mla-style-custom.git",
-                "reference": "510e763"
+                "reference": "08a5b9f"
             },
             "type": "wordpress-plugin",
-            "time": "2019-04-23 12:06:56"
+            "time": "2019-07-30 19:03:39"
         },
         {
             "name": "mlaa/mla-wp-profession",
