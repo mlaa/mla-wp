@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b92786aaa3fd5bdd408304f2bd8ddf88",
-    "content-hash": "7d5bffb4e6ff1e7685c644132896f9ab",
+    "hash": "70aed9b0cf91e68cf7d2faaf39c5107c",
+    "content-hash": "87b4f3d3d947630007f04ea6ab18a7b4",
     "packages": [
         {
             "name": "composer/installers",
@@ -129,20 +129,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "5.2.2",
+            "version": "4.9.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "597236f0e4126ef92611b904725fd4e60afdc1ac"
+                "reference": "fa10404bdcf045704f7ff519f483af6acd4cf5ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/597236f0e4126ef92611b904725fd4e60afdc1ac",
-                "reference": "597236f0e4126ef92611b904725fd4e60afdc1ac",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/fa10404bdcf045704f7ff519f483af6acd4cf5ef",
+                "reference": "fa10404bdcf045704f7ff519f483af6acd4cf5ef",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "5.2.2",
+                "johnpbloch/wordpress-core": "4.9.10",
                 "johnpbloch/wordpress-core-installer": "^1.0",
                 "php": ">=5.3.2"
             },
@@ -164,27 +164,27 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2019-06-18 17:58:03"
+            "time": "2019-03-13 01:13:10"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "5.2.2",
+            "version": "4.9.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "bbded8adf0ddd8cafdbd6e6605e0ee82d5c1dc8a"
+                "reference": "06dad62aa1ab1ef215034fb07d6aec4a68072313"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/bbded8adf0ddd8cafdbd6e6605e0ee82d5c1dc8a",
-                "reference": "bbded8adf0ddd8cafdbd6e6605e0ee82d5c1dc8a",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/06dad62aa1ab1ef215034fb07d6aec4a68072313",
+                "reference": "06dad62aa1ab1ef215034fb07d6aec4a68072313",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
             },
             "provide": {
-                "wordpress/core-implementation": "5.2.2"
+                "wordpress/core-implementation": "4.9.10"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -197,14 +197,14 @@
                     "homepage": "http://wordpress.org/about/"
                 }
             ],
-            "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
+            "description": "WordPress is web software you can use to create a beautiful website or blog.",
             "homepage": "http://wordpress.org/",
             "keywords": [
                 "blog",
                 "cms",
                 "wordpress"
             ],
-            "time": "2019-06-18 17:57:57"
+            "time": "2019-03-13 01:13:06"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -329,12 +329,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "6bc6d4f"
+                "reference": "29e0009"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/mlaa/style-center/zipball/29e0009e30a7ca542cb0fdef5721a38c43e65929",
-                "reference": "6bc6d4f",
+                "reference": "29e0009",
                 "shasum": ""
             },
             "require": {
@@ -349,7 +349,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2019-07-16 12:20:45"
+            "time": "2019-07-24 17:28:18"
         },
         {
             "name": "stuttter/wp-multi-network",
@@ -432,7 +432,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "backendtea@gmail.com"
+                    "email": "BackEndTea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -783,11 +783,11 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elasticpress/",
-                "reference": "trunk"
+                "reference": "tags/2.8.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elasticpress.zip?timestamp=1553635482",
+                "url": "https://downloads.wordpress.org/plugin/elasticpress.2.8.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -864,11 +864,11 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/kadence-blocks/",
-                "reference": "tags/1.6.2"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/kadence-blocks.1.6.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/kadence-blocks.zip?timestamp=1563834416",
                 "reference": null,
                 "shasum": null
             },
@@ -1180,7 +1180,7 @@
         },
         {
             "name": "wpackagist-plugin/wp-google-maps",
-            "version": "7.11.42",
+            "version": "7.11.44",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-google-maps/",
@@ -1188,7 +1188,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip?timestamp=1564486210",
+                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip?timestamp=1564637561",
                 "reference": null,
                 "shasum": null
             },
