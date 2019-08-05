@@ -115,7 +115,7 @@
    	 "composer/installers": "^1.2",
    	 "kreatura/layerslider": "^5.6",
 	 "wpninjas/ninja-forms-pdf-submissions": "^3.0",
-     "mlaa/mla-wp-profession": "dev-master#574f3b4",
+     "mlaa/mla-wp-profession": "dev-master#14d21fd",
 	 "mlaa/mla-allowed-tags": "dev-master#b302f21",
 	  "mlaa/mla-style-custom": "dev-master#08a5b9f",
 	"mlaa/style-center": "dev-master#29e0009",
