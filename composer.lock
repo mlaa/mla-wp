@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4c87d8eb697cfc726f1181f4875c1669",
-    "content-hash": "0433d1ead47e8c55952b40440dadcc8c",
+    "hash": "2fbb348d2c718489086581ff8dd9ffbc",
+    "content-hash": "d7b06dbf5fb15ed24e27480a8f3e37eb",
     "packages": [
         {
             "name": "composer/installers",
@@ -293,10 +293,10 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/mla-style-custom.git",
-                "reference": "08a5b9f"
+                "reference": "39ba138"
             },
             "type": "wordpress-plugin",
-            "time": "2019-07-30 19:03:39"
+            "time": "2019-08-08 17:30:47"
         },
         {
             "name": "mlaa/mla-wp-profession",
@@ -864,11 +864,11 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/kadence-blocks/",
-                "reference": "trunk"
+                "reference": "tags/1.6.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/kadence-blocks.zip?timestamp=1563834416",
+                "url": "https://downloads.wordpress.org/plugin/kadence-blocks.1.6.2.zip",
                 "reference": null,
                 "shasum": null
             },
