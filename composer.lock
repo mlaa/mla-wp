@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d02dd1e42cd65bceaa43734e84a083a7",
-    "content-hash": "11cacb6ea282c863e3b826c09c0cf4b1",
+    "hash": "4c87d8eb697cfc726f1181f4875c1669",
+    "content-hash": "0433d1ead47e8c55952b40440dadcc8c",
     "packages": [
         {
             "name": "composer/installers",
@@ -329,12 +329,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "29e0009"
+                "reference": "4a4878a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/29e0009e30a7ca542cb0fdef5721a38c43e65929",
-                "reference": "29e0009",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/4a4878a491425ba186656014f8ccad745b9228ec",
+                "reference": "4a4878a",
                 "shasum": ""
             },
             "require": {
@@ -349,7 +349,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2019-07-24 17:28:18"
+            "time": "2019-08-08 14:50:19"
         },
         {
             "name": "stuttter/wp-multi-network",
@@ -389,16 +389,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.11.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "82ebae02209c21113908c229e9883c419720738a"
+                "reference": "550ebaac289296ce228a706d0867afc34687e3f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/82ebae02209c21113908c229e9883c419720738a",
-                "reference": "82ebae02209c21113908c229e9883c419720738a",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/550ebaac289296ce228a706d0867afc34687e3f4",
+                "reference": "550ebaac289296ce228a706d0867afc34687e3f4",
                 "shasum": ""
             },
             "require": {
@@ -410,7 +410,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.11-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -427,12 +427,12 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
                 },
                 {
-                    "name": "Gert de Pagter",
-                    "email": "backendtea@gmail.com"
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -443,7 +443,7 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2019-02-06 07:57:58"
+            "time": "2019-08-06 08:03:45"
         },
         {
             "name": "uglyrobot/multisite-plugin-manager",
@@ -799,15 +799,15 @@
         },
         {
             "name": "wpackagist-plugin/event-organiser",
-            "version": "3.8.1",
+            "version": "3.8.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/event-organiser/",
-                "reference": "tags/3.8.1"
+                "reference": "tags/3.8.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/event-organiser.3.8.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/event-organiser.3.8.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -864,11 +864,11 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/kadence-blocks/",
-                "reference": "tags/1.6.2"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/kadence-blocks.1.6.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/kadence-blocks.zip?timestamp=1563834416",
                 "reference": null,
                 "shasum": null
             },
@@ -1180,7 +1180,7 @@
         },
         {
             "name": "wpackagist-plugin/wp-google-maps",
-            "version": "7.11.44",
+            "version": "7.11.46",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-google-maps/",
@@ -1188,7 +1188,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip?timestamp=1564637561",
+                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip?timestamp=1565258048",
                 "reference": null,
                 "shasum": null
             },
