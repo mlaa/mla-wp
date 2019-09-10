@@ -4,21 +4,22 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2fbb348d2c718489086581ff8dd9ffbc",
-    "content-hash": "d7b06dbf5fb15ed24e27480a8f3e37eb",
+
+    "hash": "22264cd3f22e36a7402cee1ceca2e3d0",
+    "content-hash": "2faa3ebca8665d9e0b7d4132210920a2",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.6.0",
+            "version": "v1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "cfcca6b1b60bc4974324efb5783c13dca6932b5b"
+                "reference": "141b272484481432cda342727a427dc1e206bfa0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/cfcca6b1b60bc4974324efb5783c13dca6932b5b",
-                "reference": "cfcca6b1b60bc4974324efb5783c13dca6932b5b",
+                "url": "https://api.github.com/repos/composer/installers/zipball/141b272484481432cda342727a427dc1e206bfa0",
+                "reference": "141b272484481432cda342727a427dc1e206bfa0",
                 "shasum": ""
             },
             "require": {
@@ -74,6 +75,7 @@
                 "RadPHP",
                 "SMF",
                 "Thelia",
+                "Whmcs",
                 "WolfCMS",
                 "agl",
                 "aimeos",
@@ -96,6 +98,7 @@
                 "installer",
                 "itop",
                 "joomla",
+                "known",
                 "kohana",
                 "laravel",
                 "lavalite",
@@ -125,26 +128,26 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2018-08-27 06:10:37"
+            "time": "2019-08-12 15:00:31"
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.9.10",
+            "version": "5.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "fa10404bdcf045704f7ff519f483af6acd4cf5ef"
+                "reference": "e39361341439df042ace80ba9445b3e0acb87215"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/fa10404bdcf045704f7ff519f483af6acd4cf5ef",
-                "reference": "fa10404bdcf045704f7ff519f483af6acd4cf5ef",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/e39361341439df042ace80ba9445b3e0acb87215",
+                "reference": "e39361341439df042ace80ba9445b3e0acb87215",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "4.9.10",
+                "johnpbloch/wordpress-core": "5.2.3",
                 "johnpbloch/wordpress-core-installer": "^1.0",
-                "php": ">=5.3.2"
+                "php": ">=5.6.20"
             },
             "type": "package",
             "notification-url": "https://packagist.org/downloads/",
@@ -157,34 +160,34 @@
                     "homepage": "http://wordpress.org/about/"
                 }
             ],
-            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
             "homepage": "http://wordpress.org/",
             "keywords": [
                 "blog",
                 "cms",
                 "wordpress"
             ],
-            "time": "2019-03-13 01:13:10"
+            "time": "2019-09-05 01:17:14"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "4.9.10",
+            "version": "5.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "06dad62aa1ab1ef215034fb07d6aec4a68072313"
+                "reference": "455a884ce96b042602d1eb04fdf2b8e003be0eef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/06dad62aa1ab1ef215034fb07d6aec4a68072313",
-                "reference": "06dad62aa1ab1ef215034fb07d6aec4a68072313",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/455a884ce96b042602d1eb04fdf2b8e003be0eef",
+                "reference": "455a884ce96b042602d1eb04fdf2b8e003be0eef",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2"
+                "php": ">=5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "4.9.10"
+                "wordpress/core-implementation": "5.2.3"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -197,14 +200,14 @@
                     "homepage": "http://wordpress.org/about/"
                 }
             ],
-            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
             "homepage": "http://wordpress.org/",
             "keywords": [
                 "blog",
                 "cms",
                 "wordpress"
             ],
-            "time": "2019-03-13 01:13:06"
+            "time": "2019-09-05 01:17:09"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -309,7 +312,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/mlaa/mla-wp-profession/zipball/14d21fdb9225603876547815fd18d4a79d987eeb",
-                "reference": "14d21fd",
+                "reference": "2ba2053",
                 "shasum": ""
             },
             "require": {
@@ -333,8 +336,8 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/4a4878a491425ba186656014f8ccad745b9228ec",
-                "reference": "4a4878a",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/de03a91227010a197d176fbe1cfaeade4133054b",
+                "reference": "30a85ac",
                 "shasum": ""
             },
             "require": {
@@ -799,15 +802,16 @@
         },
         {
             "name": "wpackagist-plugin/event-organiser",
-            "version": "3.8.2",
+
+            "version": "3.8.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/event-organiser/",
-                "reference": "tags/3.8.2"
+                "reference": "tags/3.8.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/event-organiser.3.8.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/event-organiser.3.8.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -900,15 +904,15 @@
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
-            "version": "3.4.16",
+            "version": "3.4.18",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ninja-forms/",
-                "reference": "tags/3.4.16"
+                "reference": "tags/3.4.18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.4.16.zip",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.4.18.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1180,7 +1184,7 @@
         },
         {
             "name": "wpackagist-plugin/wp-google-maps",
-            "version": "7.11.46",
+            "version": "7.11.49",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-google-maps/",
@@ -1188,7 +1192,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip?timestamp=1565258048",
+                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip?timestamp=1568106927",
                 "reference": null,
                 "shasum": null
             },
@@ -1280,17 +1284,20 @@
         },
         {
             "name": "wpackagist-plugin/wp-to-twitter",
+            "version": "3.4.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-to-twitter/",
+                "reference": "tags/3.4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-to-twitter.3.4.1.zip",
             "version": "3.4.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-to-twitter/",
                 "reference": "tags/3.4.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-to-twitter.3.4.0.zip",
-                "reference": null,
-                "shasum": null
             },
             "require": {
                 "composer/installers": "~1.0"

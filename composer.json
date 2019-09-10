@@ -121,7 +121,7 @@
 	"mlaa/style-center": "dev-master#4a4878a",
 	"wpackagist-theme/wp-bootstrap-starter":"3.0.19",
 	   "stuttter/wp-multi-network": "^2.2",
-     "johnpbloch/wordpress": "^4.9",
+     "johnpbloch/wordpress": "5.2.3",
      "wpackagist-plugin/advanced-custom-fields": "4.4.12",
      "wpackagist-plugin/black-studio-tinymce-widget": "^2.6",
 	   "wpackagist-plugin/ninja-forms": "^3.3",
