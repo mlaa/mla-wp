@@ -65,14 +65,27 @@
       "type": "package",
       "package": {
         "name": "mlaa/mla-style-custom",
-        "version": "dev-develop",
+        "version": "dev-master",
         "type": "wordpress-plugin",
         "source": {
           "url": "git@github.com:mlaa/mla-style-custom.git",
           "type": "git",
-          "reference": "develop"
+          "reference": "master"
         }
       }
+    },
+     {
+	"type":"package",
+	"package": {
+		"name":"wordpress/gutenberg",
+		"version":"3.8",
+		"type":"wordpress-plugin",
+		"source": {
+			"url": "git@github.com:WordPress/gutenberg.git",
+			"type": "git",
+			"reference":"3.8"
+	}
+       }
     },
 {
       "type": "package",
@@ -90,6 +103,9 @@
 	],
    "require": {
 	"wpackagist-plugin/classic-editor":"1.5",
+	"wordpress/gutenberg":"3.8",
+	"wpackagist-plugin/kadence-blocks":"1.6.2",
+	"wpackagist-plugin/metronet-tag-manager":"1.5.4",
 	"wpackagist-plugin/wordpress-seo":"11.5",
 	"wpackagist-plugin/better-search-replace":"1.3.3",
 	"wpdatatables":"2.2",
@@ -99,10 +115,10 @@
    	 "composer/installers": "^1.2",
    	 "kreatura/layerslider": "^5.6",
 	 "wpninjas/ninja-forms-pdf-submissions": "^3.0",
-     "mlaa/mla-wp-profession": "dev-master#2ba2053",
+     "mlaa/mla-wp-profession": "dev-master#14d21fd",
 	 "mlaa/mla-allowed-tags": "dev-master#b302f21",
-	  "mlaa/mla-style-custom": "dev-develop#06d62d1",
-	"mlaa/style-center": "dev-develop#30a85ac",
+	  "mlaa/mla-style-custom": "dev-master#39ba138",
+	"mlaa/style-center": "dev-master#4a4878a",
 	"wpackagist-theme/wp-bootstrap-starter":"3.0.19",
 	   "stuttter/wp-multi-network": "^2.2",
      "johnpbloch/wordpress": "5.2.3",
@@ -155,7 +171,6 @@
   },
   "require-dev": {
     "wp-coding-standards/wpcs": "^0.14.1",
-    "wpackagist-plugin/better-http-redirects": "1.2",
     "wpackagist-plugin/debug-bar": "^0.9.0",
     "wpackagist-plugin/debug-bar-actions-and-filters-addon": "^1.5",
     "wpackagist-plugin/debug-bar-console": "^0.3.0",

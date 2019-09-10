@@ -4,6 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+
     "hash": "22264cd3f22e36a7402cee1ceca2e3d0",
     "content-hash": "2faa3ebca8665d9e0b7d4132210920a2",
     "packages": [
@@ -291,14 +292,14 @@
         },
         {
             "name": "mlaa/mla-style-custom",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/mla-style-custom.git",
-                "reference": "06d62d1"
+                "reference": "39ba138"
             },
             "type": "wordpress-plugin",
-            "time": "2019-04-22 19:05:27"
+            "time": "2019-08-08 17:30:47"
         },
         {
             "name": "mlaa/mla-wp-profession",
@@ -306,7 +307,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/mla-wp-profession.git",
-                "reference": "2ba2053"
+                "reference": "14d21fd"
             },
             "dist": {
                 "type": "zip",
@@ -323,15 +324,15 @@
                 "source": "https://github.com/mlaa/mla-wp-profession/tree/master",
                 "issues": "https://github.com/mlaa/mla-wp-profession/issues"
             },
-            "time": "2019-04-03 22:00:25"
+            "time": "2019-08-05 15:59:55"
         },
         {
             "name": "mlaa/style-center",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "30a85ac"
+                "reference": "4a4878a"
             },
             "dist": {
                 "type": "zip",
@@ -348,10 +349,10 @@
                 "All rights reserved"
             ],
             "support": {
-                "source": "https://github.com/mlaa/style-center/tree/develop",
+                "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2019-04-22 19:04:37"
+            "time": "2019-08-08 14:50:19"
         },
         {
             "name": "stuttter/wp-multi-network",
@@ -508,6 +509,16 @@
                 "environment"
             ],
             "time": "2019-01-29 11:11:52"
+        },
+        {
+            "name": "wordpress/gutenberg",
+            "version": "3.8",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:WordPress/gutenberg.git",
+                "reference": "3.8"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
@@ -791,6 +802,7 @@
         },
         {
             "name": "wpackagist-plugin/event-organiser",
+
             "version": "3.8.3",
             "source": {
                 "type": "svn",
@@ -849,6 +861,46 @@
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/formassembly-web-forms/",
             "time": "2018-07-17 17:19:20"
+        },
+        {
+            "name": "wpackagist-plugin/kadence-blocks",
+            "version": "1.6.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/kadence-blocks/",
+                "reference": "tags/1.6.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/kadence-blocks.1.6.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/kadence-blocks/"
+        },
+        {
+            "name": "wpackagist-plugin/metronet-tag-manager",
+            "version": "1.5.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/metronet-tag-manager/",
+                "reference": "tags/1.5.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/metronet-tag-manager.1.5.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/metronet-tag-manager/"
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
@@ -1241,8 +1293,11 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-to-twitter.3.4.1.zip",
-                "reference": null,
-                "shasum": null
+            "version": "3.4.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-to-twitter/",
+                "reference": "tags/3.4.0"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1429,26 +1484,6 @@
                 "wordpress"
             ],
             "time": "2018-02-16 01:57:48"
-        },
-        {
-            "name": "wpackagist-plugin/better-http-redirects",
-            "version": "1.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/better-http-redirects/",
-                "reference": "tags/1.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/better-http-redirects.1.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/better-http-redirects/"
         },
         {
             "name": "wpackagist-plugin/debug-bar",
