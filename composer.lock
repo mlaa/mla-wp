@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7eeadd6b11ee800b89788857dae604e5",
-    "content-hash": "a8a96f73e88616e6d304096ce1d8295d",
+    "hash": "3caf8f4cb0ed626b2987181d8fa7ab2d",
+    "content-hash": "3d95b2bfe4058ab1d62a80a6ef5bd4d7",
     "packages": [
         {
             "name": "composer/installers",
@@ -331,12 +331,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "9f6565c"
+                "reference": "780424b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/9f6565c7137391fa7f4146e3c87c2e993eb02b3e",
-                "reference": "9f6565c",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/780424b91aa087dd53a6c2d3477518fbb66d7a5d",
+                "reference": "780424b",
                 "shasum": ""
             },
             "require": {
@@ -351,7 +351,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2019-09-19 16:15:31"
+            "time": "2019-09-24 13:22:59"
         },
         {
             "name": "stuttter/wp-multi-network",
@@ -1182,7 +1182,7 @@
         },
         {
             "name": "wpackagist-plugin/wp-google-maps",
-            "version": "7.11.51",
+            "version": "7.11.52",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-google-maps/",
@@ -1190,7 +1190,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip?timestamp=1568894357",
+                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip?timestamp=1569318054",
                 "reference": null,
                 "shasum": null
             },
