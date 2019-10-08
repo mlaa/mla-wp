@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3caf8f4cb0ed626b2987181d8fa7ab2d",
-    "content-hash": "3d95b2bfe4058ab1d62a80a6ef5bd4d7",
+    "hash": "31631604c89a697050e54a7f9da6d122",
+    "content-hash": "51a7409d43228b0333a827f917de6e9b",
     "packages": [
         {
             "name": "composer/installers",
@@ -331,12 +331,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "780424b"
+                "reference": "4c8a8b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/780424b91aa087dd53a6c2d3477518fbb66d7a5d",
-                "reference": "780424b",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/4c8a8b6c6fbeada18139d0d97e3cddf89e4117f1",
+                "reference": "4c8a8b6",
                 "shasum": ""
             },
             "require": {
@@ -351,7 +351,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2019-09-24 13:22:59"
+            "time": "2019-10-08 15:56:17"
         },
         {
             "name": "stuttter/wp-multi-network",
@@ -821,15 +821,15 @@
         },
         {
             "name": "wpackagist-plugin/events-manager",
-            "version": "5.9.5",
+            "version": "5.9.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/events-manager/",
-                "reference": "tags/5.9.5"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/events-manager.5.9.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/events-manager.zip?timestamp=1569556860",
                 "reference": null,
                 "shasum": null
             },
@@ -1182,15 +1182,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-google-maps",
-            "version": "7.11.52",
+            "version": "7.11.53",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-google-maps/",
-                "reference": "trunk"
+                "reference": "tags/7.11.53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip?timestamp=1569318054",
+                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.7.11.53.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1282,15 +1282,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-to-twitter",
-            "version": "3.4.1",
+            "version": "3.4.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-to-twitter/",
-                "reference": "tags/3.4.1"
+                "reference": "tags/3.4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-to-twitter.3.4.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-to-twitter.3.4.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1391,16 +1391,16 @@
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.4.2",
+            "version": "3.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "b8a7362af1cc1aadb5bd36c3defc4dda2cf5f0a8"
+                "reference": "0afebf16a2e7f1e434920fa976253576151effe9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/b8a7362af1cc1aadb5bd36c3defc4dda2cf5f0a8",
-                "reference": "b8a7362af1cc1aadb5bd36c3defc4dda2cf5f0a8",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/0afebf16a2e7f1e434920fa976253576151effe9",
+                "reference": "0afebf16a2e7f1e434920fa976253576151effe9",
                 "shasum": ""
             },
             "require": {
@@ -1438,7 +1438,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2019-04-10 23:49:02"
+            "time": "2019-09-26 23:12:26"
         },
         {
             "name": "wp-coding-standards/wpcs",
