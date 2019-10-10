@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "31631604c89a697050e54a7f9da6d122",
-    "content-hash": "51a7409d43228b0333a827f917de6e9b",
+    "hash": "0fb0a0044ac55f1140c114d89dc7daee",
+    "content-hash": "c9c9c1900148fa810f2e5c467d292f1c",
     "packages": [
         {
             "name": "composer/installers",
@@ -274,12 +274,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/mla-allowed-tags.git",
-                "reference": "b302f21"
+                "reference": "06bb021"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/mlaa/mla-allowed-tags/zipball/06bb0213598306e838b5f03f1447c6e89c6a9903",
-                "reference": "b302f21",
+                "reference": "06bb021",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -287,11 +287,11 @@
                 "source": "https://github.com/mlaa/mla-allowed-tags/tree/master",
                 "issues": "https://github.com/mlaa/mla-allowed-tags/issues"
             },
-            "time": "2018-05-23 16:03:27"
+            "time": "2019-05-01 13:05:10"
         },
         {
             "name": "mlaa/mla-style-custom",
-            "version": "dev-master",
+            "version": "dev-staging",
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/mla-style-custom.git",
@@ -302,7 +302,7 @@
         },
         {
             "name": "mlaa/mla-wp-profession",
-            "version": "dev-master",
+            "version": "dev-staging",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/mla-wp-profession.git",
@@ -327,7 +327,7 @@
         },
         {
             "name": "mlaa/style-center",
-            "version": "dev-master",
+            "version": "dev-staging",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
