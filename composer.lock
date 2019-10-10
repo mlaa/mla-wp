@@ -785,11 +785,11 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elasticpress/",
-                "reference": "trunk"
+                "reference": "tags/2.8.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elasticpress.zip?timestamp=1553635482",
+                "url": "https://downloads.wordpress.org/plugin/elasticpress.2.8.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -866,11 +866,11 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/kadence-blocks/",
-                "reference": "tags/1.6.2"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/kadence-blocks.1.6.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/kadence-blocks.zip?timestamp=1563834416",
                 "reference": null,
                 "shasum": null
             },
