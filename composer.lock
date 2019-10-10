@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "31631604c89a697050e54a7f9da6d122",
-    "content-hash": "51a7409d43228b0333a827f917de6e9b",
+    "hash": "aff99c25cb3312eefe305a8d6d9a7728",
+    "content-hash": "9ba9d7fc9a9f4b9b12beafb5b7ae0f94",
     "packages": [
         {
             "name": "composer/installers",
@@ -291,27 +291,27 @@
         },
         {
             "name": "mlaa/mla-style-custom",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/mla-style-custom.git",
-                "reference": "39ba138"
+                "reference": "68eea07"
             },
             "type": "wordpress-plugin",
-            "time": "2019-08-08 17:30:47"
+            "time": "2019-10-10 14:22:55"
         },
         {
             "name": "mlaa/mla-wp-profession",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/mla-wp-profession.git",
-                "reference": "14d21fd"
+                "reference": "554028fe350fa9b8bb699fd0fd908ff23ffd950a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/mla-wp-profession/zipball/14d21fdb9225603876547815fd18d4a79d987eeb",
-                "reference": "14d21fd",
+                "url": "https://api.github.com/repos/mlaa/mla-wp-profession/zipball/554028fe350fa9b8bb699fd0fd908ff23ffd950a",
+                "reference": "554028fe350fa9b8bb699fd0fd908ff23ffd950a",
                 "shasum": ""
             },
             "require": {
@@ -320,23 +320,23 @@
             },
             "type": "wordpress-theme",
             "support": {
-                "source": "https://github.com/mlaa/mla-wp-profession/tree/master",
+                "source": "https://github.com/mlaa/mla-wp-profession/tree/develop",
                 "issues": "https://github.com/mlaa/mla-wp-profession/issues"
             },
-            "time": "2019-08-05 15:59:55"
+            "time": "2019-08-05 15:59:05"
         },
         {
             "name": "mlaa/style-center",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "4c8a8b6"
+                "reference": "85e4ad1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/4c8a8b6c6fbeada18139d0d97e3cddf89e4117f1",
-                "reference": "4c8a8b6",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/85e4ad164b1c84509fbc221a9ec43982b7cf7288",
+                "reference": "85e4ad1",
                 "shasum": ""
             },
             "require": {
@@ -348,10 +348,10 @@
                 "All rights reserved"
             ],
             "support": {
-                "source": "https://github.com/mlaa/style-center/tree/master",
+                "source": "https://github.com/mlaa/style-center/tree/develop",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2019-10-08 15:56:17"
+            "time": "2019-10-07 13:21:32"
         },
         {
             "name": "stuttter/wp-multi-network",
