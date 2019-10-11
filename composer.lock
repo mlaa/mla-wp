@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "31631604c89a697050e54a7f9da6d122",
-    "content-hash": "51a7409d43228b0333a827f917de6e9b",
+    "hash": "5b569352c4b74aa4afc0b2d3c58bb61f",
+    "content-hash": "0a5de5325248e6b7f76305a6c5aca123",
     "packages": [
         {
             "name": "composer/installers",
@@ -295,10 +295,10 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/mla-style-custom.git",
-                "reference": "39ba138"
+                "reference": "f7fe644"
             },
             "type": "wordpress-plugin",
-            "time": "2019-08-08 17:30:47"
+            "time": "2019-10-10 18:43:31"
         },
         {
             "name": "mlaa/mla-wp-profession",
@@ -331,12 +331,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "4c8a8b6"
+                "reference": "670db23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/4c8a8b6c6fbeada18139d0d97e3cddf89e4117f1",
-                "reference": "4c8a8b6",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/670db2351f6ee0cae36da8353440f71f2d1afcb1",
+                "reference": "670db23",
                 "shasum": ""
             },
             "require": {
@@ -351,7 +351,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2019-10-08 15:56:17"
+            "time": "2019-10-11 17:45:29"
         },
         {
             "name": "stuttter/wp-multi-network",
