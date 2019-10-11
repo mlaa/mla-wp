@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "99530ab65b0b6bc4c337eb528d163483",
-    "content-hash": "a93502d537265e8de30d39f31e2d7ec8",
+    "hash": "ab9f2ad480515ad56adf6b68770016a9",
+    "content-hash": "9ed3cd5b806f074a8d320f6d3abf6082",
     "packages": [
         {
             "name": "composer/installers",
@@ -302,14 +302,14 @@
         },
         {
             "name": "mlaa/mla-style-video",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/mla-style-video.git",
-                "reference": "3883ac9"
+                "reference": "9e15297"
             },
             "type": "wordpress-plugin",
-            "time": "2019-10-10 20:17:31"
+            "time": "2019-10-03 18:05:08"
         },
         {
             "name": "mlaa/mla-wp-profession",
@@ -338,16 +338,16 @@
         },
         {
             "name": "mlaa/style-center",
-            "version": "dev-develop",
+            "version": "dev-style_video_changes",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "61f0a05"
+                "reference": "b965695"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/61f0a05d5c87fd64edf41c43b1bfaa999d6de6e4",
-                "reference": "61f0a05",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/b965695031245598ef73a0237328de60e7502aa9",
+                "reference": "b965695",
                 "shasum": ""
             },
             "require": {
@@ -359,10 +359,10 @@
                 "All rights reserved"
             ],
             "support": {
-                "source": "https://github.com/mlaa/style-center/tree/develop",
+                "source": "https://github.com/mlaa/style-center/tree/style_video_changes",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2019-10-11 15:08:46"
+            "time": "2019-10-01 20:07:28"
         },
         {
             "name": "stuttter/wp-multi-network",
