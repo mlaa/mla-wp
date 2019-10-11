@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1c695765c238c08a3fb4f9d9b68b6e2c",
-    "content-hash": "f57757fcb11eb5f11c36a1d4d0f678d1",
+    "hash": "99530ab65b0b6bc4c337eb528d163483",
+    "content-hash": "a93502d537265e8de30d39f31e2d7ec8",
     "packages": [
         {
             "name": "composer/installers",
@@ -299,6 +299,17 @@
             },
             "type": "wordpress-plugin",
             "time": "2019-10-10 14:22:55"
+        },
+        {
+            "name": "mlaa/mla-style-video",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:mlaa/mla-style-video.git",
+                "reference": "3883ac9"
+            },
+            "type": "wordpress-plugin",
+            "time": "2019-10-10 20:17:31"
         },
         {
             "name": "mlaa/mla-wp-profession",
@@ -1080,6 +1091,46 @@
             "homepage": "https://wordpress.org/plugins/tinymce-advanced/"
         },
         {
+            "name": "wpackagist-plugin/tutor",
+            "version": "1.4.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/tutor/",
+                "reference": "tags/1.4.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/tutor.1.4.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/tutor/"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce",
+            "version": "3.7.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce/",
+                "reference": "tags/3.7.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.7.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce/"
+        },
+        {
             "name": "wpackagist-plugin/wordpress-importer",
             "version": "0.6.4",
             "source": {
@@ -1706,6 +1757,7 @@
         "mlaa/mla-wp-profession": 20,
         "mlaa/mla-allowed-tags": 20,
         "mlaa/mla-style-custom": 20,
+        "mlaa/mla-style-video": 20,
         "mlaa/style-center": 20,
         "uglyrobot/multisite-plugin-manager": 20
     },
