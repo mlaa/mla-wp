@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2a2b023c037015ccc415efa8e1e190df",
-    "content-hash": "65781e26badfd40f6716ef6ada6836ce",
+    "hash": "5ef26a4cdd214e5120b4f5bfd931e599",
+    "content-hash": "9c1dbd0955e33eba986a9e9107ec711a",
     "packages": [
         {
             "name": "composer/installers",
@@ -331,12 +331,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "4c8a8b6"
+                "reference": "e6aa601"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/4c8a8b6c6fbeada18139d0d97e3cddf89e4117f1",
-                "reference": "4c8a8b6",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/e6aa601cbb28c54ecb25f812275e0db9a920afed",
+                "reference": "e6aa601",
                 "shasum": ""
             },
             "require": {
@@ -351,7 +351,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2019-10-08 15:56:17"
+            "time": "2019-10-11 17:21:56"
         },
         {
             "name": "stuttter/wp-multi-network",
@@ -1704,11 +1704,11 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "wpackagist-plugin/formassembly-web-forms": 20,
         "mlaa/mla-wp-profession": 20,
         "mlaa/mla-allowed-tags": 20,
         "mlaa/mla-style-custom": 20,
         "mlaa/style-center": 20,
+        "wpackagist-plugin/formassembly-web-forms": 20,
         "uglyrobot/multisite-plugin-manager": 20
     },
     "prefer-stable": true,
