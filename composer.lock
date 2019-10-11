@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "aff99c25cb3312eefe305a8d6d9a7728",
-    "content-hash": "9ba9d7fc9a9f4b9b12beafb5b7ae0f94",
+    "hash": "1c695765c238c08a3fb4f9d9b68b6e2c",
+    "content-hash": "f57757fcb11eb5f11c36a1d4d0f678d1",
     "packages": [
         {
             "name": "composer/installers",
@@ -331,12 +331,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "85e4ad1"
+                "reference": "61f0a05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/85e4ad164b1c84509fbc221a9ec43982b7cf7288",
-                "reference": "85e4ad1",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/61f0a05d5c87fd64edf41c43b1bfaa999d6de6e4",
+                "reference": "61f0a05",
                 "shasum": ""
             },
             "require": {
@@ -351,7 +351,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/develop",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2019-10-07 13:21:32"
+            "time": "2019-10-11 15:08:46"
         },
         {
             "name": "stuttter/wp-multi-network",
@@ -841,15 +841,15 @@
         },
         {
             "name": "wpackagist-plugin/formassembly-web-forms",
-            "version": "dev-trunk",
+            "version": "2.0.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/formassembly-web-forms/",
-                "reference": "trunk"
+                "reference": "tags/2.0.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/formassembly-web-forms.zip?timestamp=1531847960",
+                "url": "https://downloads.wordpress.org/plugin/formassembly-web-forms.2.0.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -857,8 +857,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/formassembly-web-forms/",
-            "time": "2018-07-17 17:19:20"
+            "homepage": "https://wordpress.org/plugins/formassembly-web-forms/"
         },
         {
             "name": "wpackagist-plugin/kadence-blocks",
@@ -1704,7 +1703,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "wpackagist-plugin/formassembly-web-forms": 20,
         "mlaa/mla-wp-profession": 20,
         "mlaa/mla-allowed-tags": 20,
         "mlaa/mla-style-custom": 20,
