@@ -78,12 +78,12 @@
       "type": "package",
       "package": {
         "name": "mlaa/mla-style-video",
-        "version": "dev-master",
+        "version": "dev-develop",
         "type": "wordpress-plugin",
         "source": {
           "url": "git@github.com:mlaa/mla-style-video.git",
           "type": "git",
-          "reference": "master"
+          "reference": "develop"
         }
       }
     },
@@ -116,7 +116,7 @@
     }
 	],
    "require": {
-	"wpackagist-plugin/classic-editor":"1.5",
+	"packagist-plugin/classic-editor":"1.5",
 	"wordpress/gutenberg":"3.8",
 	"wpackagist-plugin/kadence-blocks":"1.6.2",
 	"wpackagist-plugin/metronet-tag-manager":"1.5.4",
@@ -131,7 +131,7 @@
          "mlaa/mla-wp-profession": "dev-develop#develop",
 	 "mlaa/mla-allowed-tags": "dev-master#b302f21",
 	 "mlaa/mla-style-custom": "dev-develop#68eea07",
-	 "mlaa/mla-style-video": "dev-master#9e15297",
+	 "mlaa/mla-style-video": "dev-develop#136c709",
 	 "mlaa/style-center": "dev-style_video_changes#b965695",
 	 "wpackagist-theme/wp-bootstrap-starter":"3.0.19",
 	 "stuttter/wp-multi-network": "^2.2",
@@ -174,7 +174,8 @@
          "wpackagist-plugin/sparkpost":"3.2.0",
          "vlucas/phpdotenv": "^2.4",
          "wpackagist-plugin/custom-post-type-ui":"1.6.1",
-         "wpninjas/ninja-forms-uploads": "3.0.18"
+         "wpninjas/ninja-forms-uploads": "3.0.18",
+	 "wpackagist-plugin/yith-woocommerce-authorizenet-payment-gateway":"1.1.12"
     },
 "config": {
     "sort-packages": true
