@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3a0c0185deb0952f81cef9a66558c421",
-    "content-hash": "0b49af914315f6fba9a335c907a6ed25",
+    "hash": "3b782386a8b801206ad68613a7b698a7",
+    "content-hash": "6340308a876d53fbe0129175ed97b2d1",
     "packages": [
         {
             "name": "composer/installers",
@@ -519,6 +519,21 @@
                 "environment"
             ],
             "time": "2019-01-29 11:11:52"
+        },
+        {
+            "name": "woocommerce-gateway-authorize-net-cim",
+            "version": "3.0.4",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/woocommerce-gateway-authorize-net-cim.zip",
+                "reference": null,
+                "shasum": "d261fb5a7e4c2228fc8f316659dc00e57b94055d"
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3.0"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "wordpress/gutenberg",
@@ -1131,6 +1146,26 @@
             "homepage": "https://wordpress.org/plugins/woocommerce/"
         },
         {
+            "name": "wpackagist-plugin/woocommerce-gateway-stripe",
+            "version": "4.3.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce-gateway-stripe/",
+                "reference": "tags/4.3.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-stripe.4.3.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce-gateway-stripe/"
+        },
+        {
             "name": "wpackagist-plugin/wordpress-importer",
             "version": "0.6.4",
             "source": {
@@ -1369,26 +1404,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wpfront-notification-bar/"
-        },
-        {
-            "name": "wpackagist-plugin/yith-woocommerce-authorizenet-payment-gateway",
-            "version": "1.1.12",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/yith-woocommerce-authorizenet-payment-gateway/",
-                "reference": "tags/1.1.12"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/yith-woocommerce-authorizenet-payment-gateway.1.1.12.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/yith-woocommerce-authorizenet-payment-gateway/"
         },
         {
             "name": "wpackagist-theme/wp-bootstrap-starter",

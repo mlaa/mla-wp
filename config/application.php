@@ -71,6 +71,11 @@ define('SECURE_AUTH_SALT', 'Yt>s0L*/-[z3dan*O`;flIzrXw^L( *3# ySvda+f9cSV`cZr|GU
 define('LOGGED_IN_SALT',   '8x -2Jw)^&8x8OJvuzKn5U,IIhwV;Nd=nty.J6N+|&F<J|_@U(U7f83vliEvP46<');
 define('NONCE_SALT',       ']fc&Uz5r.*^;u6aXOGniZ0,r@<Y1EDnFz*diD(<B?0M(RzMB=cjuwzSsGBlsyN^a');
 
+define( 'PRODUCT_TITLE_INSTITUTE', getenv('PRODUCT_TITLE_INSTITUTE'));
+define( 'PRODUCT_TITLE_SEATS', getenv('PRODUCT_TITLE_SEATS') );
+define( 'PRODUCT_TITLE_SINGLE', getenv('PRODUCT_TITLE_SINGLE') );
+define( 'PRODUCT_INSTITUTE_LANDING_URL', getenv('PRODUCT_INSTITUTE_LANDING_URL') );
+
 /**
  * Custom Settings
  */
