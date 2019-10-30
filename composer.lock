@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5ef26a4cdd214e5120b4f5bfd931e599",
-    "content-hash": "9c1dbd0955e33eba986a9e9107ec711a",
+    "hash": "f8fc1151139be6cdc42df5b9a406f29d",
+    "content-hash": "e8dac816ab6677d1aeda2581281b9d4f",
     "packages": [
         {
             "name": "composer/installers",
@@ -961,6 +961,26 @@
             "homepage": "https://wordpress.org/plugins/password-protected/"
         },
         {
+            "name": "wpackagist-plugin/pdf-embedder",
+            "version": "4.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/pdf-embedder/",
+                "reference": "tags/4.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/pdf-embedder.4.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/pdf-embedder/"
+        },
+        {
             "name": "wpackagist-plugin/post-types-order",
             "version": "1.9.3.6",
             "source": {
@@ -1002,15 +1022,15 @@
         },
         {
             "name": "wpackagist-plugin/redis-cache",
-            "version": "1.4.3",
+            "version": "1.5.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redis-cache/",
-                "reference": "tags/1.4.3"
+                "reference": "tags/1.5.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redis-cache.1.4.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/redis-cache.1.5.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1242,15 +1262,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-polls",
-            "version": "2.75.2",
+            "version": "2.75.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-polls/",
-                "reference": "tags/2.75.2"
+                "reference": "tags/2.75.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-polls.2.75.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-polls.2.75.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1391,16 +1411,16 @@
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.5.0",
+            "version": "3.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "0afebf16a2e7f1e434920fa976253576151effe9"
+                "reference": "65b12cdeaaa6cd276d4c3033a95b9b88b12701e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/0afebf16a2e7f1e434920fa976253576151effe9",
-                "reference": "0afebf16a2e7f1e434920fa976253576151effe9",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/65b12cdeaaa6cd276d4c3033a95b9b88b12701e7",
+                "reference": "65b12cdeaaa6cd276d4c3033a95b9b88b12701e7",
                 "shasum": ""
             },
             "require": {
@@ -1438,7 +1458,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2019-09-26 23:12:26"
+            "time": "2019-10-28 04:36:32"
         },
         {
             "name": "wp-coding-standards/wpcs",
