@@ -9,3 +9,6 @@ define('SCRIPT_DEBUG', true);
 ini_set('log_errors', 1);
 ini_set('error_log', getenv('WP_LOGS_DIR') . '/debug.log');
 
+/* Disable outgoing mail */
+function wp_mail(){}
+
