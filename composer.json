@@ -133,7 +133,7 @@
 	 "mlaa/mla-allowed-tags": "dev-master#b302f21",
 	 "mlaa/mla-style-custom": "dev-develop#68eea07",
 	 "mlaa/mla-style-video": "dev-develop#84ebf77",
-	 "mlaa/style-center": "dev-style_video_changes#d1ea5ab",
+	 "mlaa/style-center": "dev-style-video-beta#d1ea5ab",
 	 "wpackagist-theme/wp-bootstrap-starter":"3.0.19",
 	 "stuttter/wp-multi-network": "^2.2",
          "johnpbloch/wordpress": "5.2.3",
