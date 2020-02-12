@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c46fe67ae043785df38df77809e11309",
-    "content-hash": "5c515f41b855b544ae692bdb16fcfcf6",
+    "hash": "d9b37343afa571ac66555dda18786844",
+    "content-hash": "cf71aa75967b46df033de27e7c56c60f",
     "packages": [
         {
             "name": "composer/installers",
@@ -306,12 +306,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/mla-wp-profession.git",
-                "reference": "cf9eceb"
+                "reference": "8d73de5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/mla-wp-profession/zipball/cf9eceb745f840acd27c187c1b610d3569482423",
-                "reference": "cf9eceb",
+                "url": "https://api.github.com/repos/mlaa/mla-wp-profession/zipball/3bebb0758dd422ffe5b0febe7feb62472c161ba4",
+                "reference": "8d73de5",
                 "shasum": ""
             },
             "require": {
@@ -323,7 +323,7 @@
                 "source": "https://github.com/mlaa/mla-wp-profession/tree/master",
                 "issues": "https://github.com/mlaa/mla-wp-profession/issues"
             },
-            "time": "2019-11-18 16:44:52"
+            "time": "2019-11-21 20:30:33"
         },
         {
             "name": "mlaa/style-center",
@@ -391,16 +391,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.12.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "550ebaac289296ce228a706d0867afc34687e3f4"
+                "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/550ebaac289296ce228a706d0867afc34687e3f4",
-                "reference": "550ebaac289296ce228a706d0867afc34687e3f4",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
+                "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
                 "shasum": ""
             },
             "require": {
@@ -412,7 +412,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.12-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -445,7 +445,7 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2019-08-06 08:03:45"
+            "time": "2019-11-27 13:56:44"
         },
         {
             "name": "uglyrobot/multisite-plugin-manager",
@@ -561,15 +561,15 @@
         },
         {
             "name": "wpackagist-plugin/autoptimize",
-            "version": "2.5.1",
+            "version": "2.6.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/autoptimize/",
-                "reference": "tags/2.5.1"
+                "reference": "tags/2.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autoptimize.2.5.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/autoptimize.2.6.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -801,15 +801,15 @@
         },
         {
             "name": "wpackagist-plugin/event-organiser",
-            "version": "3.8.6",
+            "version": "3.9.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/event-organiser/",
-                "reference": "tags/3.8.6"
+                "reference": "tags/3.9.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/event-organiser.3.8.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/event-organiser.3.9.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -821,7 +821,7 @@
         },
         {
             "name": "wpackagist-plugin/events-manager",
-            "version": "5.9.6",
+            "version": "5.9.7.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/events-manager/",
@@ -829,7 +829,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/events-manager.zip?timestamp=1569556860",
+                "url": "https://downloads.wordpress.org/plugin/events-manager.zip?timestamp=1574854198",
                 "reference": null,
                 "shasum": null
             },
@@ -902,15 +902,15 @@
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
-            "version": "3.4.21",
+            "version": "3.4.22",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ninja-forms/",
-                "reference": "tags/3.4.21"
+                "reference": "tags/3.4.22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.4.21.zip",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.4.22.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1022,15 +1022,15 @@
         },
         {
             "name": "wpackagist-plugin/redis-cache",
-            "version": "1.5.2",
+            "version": "1.5.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redis-cache/",
-                "reference": "tags/1.5.2"
+                "reference": "tags/1.5.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redis-cache.1.5.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/redis-cache.1.5.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1101,6 +1101,26 @@
             "homepage": "https://wordpress.org/plugins/tinymce-advanced/"
         },
         {
+            "name": "wpackagist-plugin/w3-total-cache",
+            "version": "0.12.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/w3-total-cache/",
+                "reference": "tags/0.12.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.0.12.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/w3-total-cache/"
+        },
+        {
             "name": "wpackagist-plugin/wordpress-importer",
             "version": "0.6.4",
             "source": {
@@ -1162,15 +1182,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-accessibility",
-            "version": "1.6.10",
+            "version": "1.7.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-accessibility/",
-                "reference": "tags/1.6.10"
+                "reference": "tags/1.7.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-accessibility.1.6.10.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-accessibility.1.7.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1411,16 +1431,16 @@
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.5.2",
+            "version": "3.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "65b12cdeaaa6cd276d4c3033a95b9b88b12701e7"
+                "reference": "557a1fc7ac702c66b0bbfe16ab3d55839ef724cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/65b12cdeaaa6cd276d4c3033a95b9b88b12701e7",
-                "reference": "65b12cdeaaa6cd276d4c3033a95b9b88b12701e7",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/557a1fc7ac702c66b0bbfe16ab3d55839ef724cb",
+                "reference": "557a1fc7ac702c66b0bbfe16ab3d55839ef724cb",
                 "shasum": ""
             },
             "require": {
@@ -1458,7 +1478,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2019-10-28 04:36:32"
+            "time": "2019-12-04 04:46:47"
         },
         {
             "name": "wp-coding-standards/wpcs",

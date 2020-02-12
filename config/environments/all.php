@@ -35,8 +35,6 @@ define( 'COOKIEPATH', '/' );
 define( 'ADMIN_COOKIE_PATH', '/' );
 define( 'SITECOOKIEPATH',    '/' );
 
-define('PATH_CURRENT_SITE', '/');
-
 define('PRIMARY_NETWORK_ID', 1);
 
 /**
