@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d9b37343afa571ac66555dda18786844",
-    "content-hash": "cf71aa75967b46df033de27e7c56c60f",
+    "hash": "cfef7b825d13d78af93a4d96fefb61d6",
+    "content-hash": "563ec5dea37cb33c7b9bde26dea86aa4",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.7.0",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "141b272484481432cda342727a427dc1e206bfa0"
+                "reference": "7d610d50aae61ae7ed6675e58efeabdf279bb5e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/141b272484481432cda342727a427dc1e206bfa0",
-                "reference": "141b272484481432cda342727a427dc1e206bfa0",
+                "url": "https://api.github.com/repos/composer/installers/zipball/7d610d50aae61ae7ed6675e58efeabdf279bb5e3",
+                "reference": "7d610d50aae61ae7ed6675e58efeabdf279bb5e3",
                 "shasum": ""
             },
             "require": {
@@ -66,6 +66,7 @@
                 "Kanboard",
                 "Lan Management System",
                 "MODX Evo",
+                "MantisBT",
                 "Mautic",
                 "Maya",
                 "OXID",
@@ -120,6 +121,7 @@
                 "shopware",
                 "silverstripe",
                 "sydes",
+                "sylius",
                 "symfony",
                 "typo3",
                 "wordpress",
@@ -127,7 +129,22 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2019-08-12 15:00:31"
+            "time": "2020-02-07 10:39:20"
+        },
+        {
+            "name": "google/google-recaptcha",
+            "version": "1.54",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/google-captcha-pro.zip",
+                "reference": null,
+                "shasum": "7429475b115e835cecc81f180139d9f118f915d1"
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3.0"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -301,17 +318,28 @@
             "time": "2019-10-10 18:11:14"
         },
         {
+            "name": "mlaa/mla-style-video",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:mlaa/mla-style-video.git",
+                "reference": "b773d45"
+            },
+            "type": "wordpress-plugin",
+            "time": "2020-02-12 19:41:24"
+        },
+        {
             "name": "mlaa/mla-wp-profession",
             "version": "dev-staging",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/mla-wp-profession.git",
-                "reference": "8d73de5"
+                "reference": "3bebb07"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/mlaa/mla-wp-profession/zipball/3bebb0758dd422ffe5b0febe7feb62472c161ba4",
-                "reference": "8d73de5",
+                "reference": "3bebb07",
                 "shasum": ""
             },
             "require": {
@@ -323,20 +351,20 @@
                 "source": "https://github.com/mlaa/mla-wp-profession/tree/master",
                 "issues": "https://github.com/mlaa/mla-wp-profession/issues"
             },
-            "time": "2019-11-21 20:30:33"
+            "time": "2019-12-10 15:35:38"
         },
         {
             "name": "mlaa/style-center",
-            "version": "dev-staging",
+            "version": "dev-style-video-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "e6aa601"
+                "reference": "d1ea5ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/e6aa601cbb28c54ecb25f812275e0db9a920afed",
-                "reference": "e6aa601",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/d1ea5ab2f9eb83a572f39a4dd605d727b3a26649",
+                "reference": "d1ea5ab",
                 "shasum": ""
             },
             "require": {
@@ -348,10 +376,10 @@
                 "All rights reserved"
             ],
             "support": {
-                "source": "https://github.com/mlaa/style-center/tree/master",
+                "source": "https://github.com/mlaa/style-center/tree/style_video_changes",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2019-10-11 17:21:56"
+            "time": "2019-12-12 15:22:50"
         },
         {
             "name": "stuttter/wp-multi-network",
@@ -448,6 +476,21 @@
             "time": "2019-11-27 13:56:44"
         },
         {
+            "name": "tutor/tutor-pro",
+            "version": "1.5.2",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/tutor-pro.zip",
+                "reference": null,
+                "shasum": "04c90671748af968a278b50743ac6dd15e393793"
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3.0"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
             "name": "uglyrobot/multisite-plugin-manager",
             "version": "dev-master",
             "source": {
@@ -508,6 +551,21 @@
                 "environment"
             ],
             "time": "2019-01-29 11:11:52"
+        },
+        {
+            "name": "woocommerce-gateway-authorize-net-cim",
+            "version": "3.1.1",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/woocommerce-gateway-authorize-net-cim.zip",
+                "reference": null,
+                "shasum": "016b67e651bf56bce131a8612efc7a11c00a11f4"
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3.0"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "wordpress/gutenberg",
@@ -821,7 +879,7 @@
         },
         {
             "name": "wpackagist-plugin/events-manager",
-            "version": "5.9.7.1",
+            "version": "5.9.7.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/events-manager/",
@@ -829,7 +887,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/events-manager.zip?timestamp=1574854198",
+                "url": "https://downloads.wordpress.org/plugin/events-manager.zip?timestamp=1580922426",
                 "reference": null,
                 "shasum": null
             },
@@ -841,15 +899,15 @@
         },
         {
             "name": "wpackagist-plugin/formassembly-web-forms",
-            "version": "dev-trunk",
+            "version": "2.0.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/formassembly-web-forms/",
-                "reference": "trunk"
+                "reference": "tags/2.0.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/formassembly-web-forms.zip?timestamp=1531847960",
+                "url": "https://downloads.wordpress.org/plugin/formassembly-web-forms.2.0.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -857,12 +915,31 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/formassembly-web-forms/",
-            "time": "2018-07-17 17:19:20"
+            "homepage": "https://wordpress.org/plugins/formassembly-web-forms/"
+        },
+        {
+            "name": "wpackagist-plugin/if-menu",
+            "version": "0.15",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/if-menu/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/if-menu.zip?timestamp=1562093064",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/if-menu/"
         },
         {
             "name": "wpackagist-plugin/kadence-blocks",
-            "version": "1.6.2",
+            "version": "1.7.17",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/kadence-blocks/",
@@ -870,7 +947,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/kadence-blocks.zip?timestamp=1563834416",
+                "url": "https://downloads.wordpress.org/plugin/kadence-blocks.zip?timestamp=1580794555",
                 "reference": null,
                 "shasum": null
             },
@@ -902,15 +979,15 @@
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
-            "version": "3.4.22",
+            "version": "3.4.23",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ninja-forms/",
-                "reference": "tags/3.4.22"
+                "reference": "tags/3.4.23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.4.22.zip",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.4.23.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1022,15 +1099,15 @@
         },
         {
             "name": "wpackagist-plugin/redis-cache",
-            "version": "1.5.5",
+            "version": "1.5.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redis-cache/",
-                "reference": "tags/1.5.5"
+                "reference": "tags/1.5.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redis-cache.1.5.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/redis-cache.1.5.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1101,16 +1178,36 @@
             "homepage": "https://wordpress.org/plugins/tinymce-advanced/"
         },
         {
-            "name": "wpackagist-plugin/w3-total-cache",
-            "version": "0.12.0",
+            "name": "wpackagist-plugin/tutor",
+            "version": "1.5.4",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/w3-total-cache/",
-                "reference": "tags/0.12.0"
+                "url": "https://plugins.svn.wordpress.org/tutor/",
+                "reference": "tags/1.5.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.0.12.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/tutor.1.5.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/tutor/"
+        },
+        {
+            "name": "wpackagist-plugin/w3-total-cache",
+            "version": "0.13.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/w3-total-cache/",
+                "reference": "tags/0.13.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.0.13.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1119,6 +1216,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/w3-total-cache/"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce",
+            "version": "3.7.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce/",
+                "reference": "tags/3.7.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.7.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce/"
         },
         {
             "name": "wpackagist-plugin/wordpress-importer",
@@ -1162,15 +1279,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "11.5",
+            "version": "11.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/11.5"
+                "reference": "tags/11.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.11.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.11.9.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1282,15 +1399,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-polls",
-            "version": "2.75.3",
+            "version": "2.75.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-polls/",
-                "reference": "tags/2.75.3"
+                "reference": "tags/2.75.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-polls.2.75.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-polls.2.75.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1431,16 +1548,16 @@
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.5.3",
+            "version": "3.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "557a1fc7ac702c66b0bbfe16ab3d55839ef724cb"
+                "reference": "dceec07328401de6211037abbb18bda423677e26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/557a1fc7ac702c66b0bbfe16ab3d55839ef724cb",
-                "reference": "557a1fc7ac702c66b0bbfe16ab3d55839ef724cb",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/dceec07328401de6211037abbb18bda423677e26",
+                "reference": "dceec07328401de6211037abbb18bda423677e26",
                 "shasum": ""
             },
             "require": {
@@ -1478,7 +1595,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2019-12-04 04:46:47"
+            "time": "2020-01-30 22:20:29"
         },
         {
             "name": "wp-coding-standards/wpcs",
@@ -1747,8 +1864,8 @@
         "mlaa/mla-wp-profession": 20,
         "mlaa/mla-allowed-tags": 20,
         "mlaa/mla-style-custom": 20,
+        "mlaa/mla-style-video": 20,
         "mlaa/style-center": 20,
-        "wpackagist-plugin/formassembly-web-forms": 20,
         "uglyrobot/multisite-plugin-manager": 20
     },
     "prefer-stable": true,
