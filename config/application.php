@@ -86,3 +86,7 @@ if (!defined('ABSPATH')) {
   define('ABSPATH', $webroot_dir . '/wp/');
 }
 
+define( 'PRODUCT_TITLE_INSTITUTE', getenv('PRODUCT_TITLE_INSTITUTE'));
+define( 'PRODUCT_TITLE_SEATS', getenv('PRODUCT_TITLE_SEATS') );
+define( 'PRODUCT_TITLE_SINGLE', getenv('PRODUCT_TITLE_SINGLE') );
+define( 'PRODUCT_INSTITUTE_LANDING_URL', getenv('PRODUCT_INSTITUTE_LANDING_URL') );

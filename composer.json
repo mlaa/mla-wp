@@ -91,7 +91,7 @@
       "type": "package",
       "package": {
         "name": "mlaa/mla-style-video",
-        "version": "dev-master",
+        "version": "dev-develop",
         "type": "wordpress-plugin",
         "source": {
           "url": "git@github.com:mlaa/mla-style-video.git",
@@ -132,7 +132,7 @@
         "mlaa/mla-wp-profession": "dev-staging#3bebb07",
 	"mlaa/mla-allowed-tags": "dev-master#06bb021",
 	"mlaa/mla-style-custom": "dev-staging#6584ef7",
-	"mlaa/mla-style-video": "dev-master#b773d45",
+	"mlaa/mla-style-video": "dev-develop#8afb1f1",
 	"mlaa/style-center": "dev-style-video-beta#d1ea5ab",
 	"wpackagist-theme/wp-bootstrap-starter":"3.0.19",
 	"stuttter/wp-multi-network": "^2.2",
@@ -177,7 +177,7 @@
       	"wpninjas/ninja-forms-uploads": "3.0.18",
 	"wpackagist-plugin/tutor":"1.5.4", 
         "tutor/tutor-pro":"1.5.2",
-	"google/google-recaptcha":"1.54", 
+	"google/google-captcha-pro":"1.54", 
 	"wpackagist-plugin/woocommerce":"3.7.1",
 	"wpackagist-plugin/if-menu":"0.15"
     },

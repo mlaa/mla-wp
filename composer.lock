@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cfef7b825d13d78af93a4d96fefb61d6",
-    "content-hash": "563ec5dea37cb33c7b9bde26dea86aa4",
+    "hash": "1a3f304dca4f9acc59048f808ca1b259",
+    "content-hash": "12c9b17d89104d7f51ec26036a6ffb3b",
     "packages": [
         {
             "name": "composer/installers",
@@ -132,13 +132,13 @@
             "time": "2020-02-07 10:39:20"
         },
         {
-            "name": "google/google-recaptcha",
+            "name": "google/google-captcha-pro",
             "version": "1.54",
             "dist": {
                 "type": "zip",
                 "url": "/tmp/wordpress-packages/google-captcha-pro.zip",
                 "reference": null,
-                "shasum": "7429475b115e835cecc81f180139d9f118f915d1"
+                "shasum": "7fd94091d4660deb13d6fad994ddd6f1ac4338c5"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -319,14 +319,14 @@
         },
         {
             "name": "mlaa/mla-style-video",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/mla-style-video.git",
-                "reference": "b773d45"
+                "reference": "8afb1f1"
             },
             "type": "wordpress-plugin",
-            "time": "2020-02-12 19:41:24"
+            "time": "2020-02-19 18:11:37"
         },
         {
             "name": "mlaa/mla-wp-profession",
@@ -419,16 +419,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.13.1",
+            "version": "v1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3"
+                "reference": "fbdeaec0df06cf3d51c93de80c7eb76e271f5a38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
-                "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/fbdeaec0df06cf3d51c93de80c7eb76e271f5a38",
+                "reference": "fbdeaec0df06cf3d51c93de80c7eb76e271f5a38",
                 "shasum": ""
             },
             "require": {
@@ -440,7 +440,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.13-dev"
+                    "dev-master": "1.14-dev"
                 }
             },
             "autoload": {
@@ -473,7 +473,7 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2019-11-27 13:56:44"
+            "time": "2020-01-13 11:15:53"
         },
         {
             "name": "tutor/tutor-pro",
@@ -879,15 +879,15 @@
         },
         {
             "name": "wpackagist-plugin/events-manager",
-            "version": "5.9.7.2",
+            "version": "5.9.7.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/events-manager/",
-                "reference": "trunk"
+                "reference": "tags/5.9.7.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/events-manager.zip?timestamp=1580922426",
+                "url": "https://downloads.wordpress.org/plugin/events-manager.5.9.7.3.zip",
                 "reference": null,
                 "shasum": null
             },
