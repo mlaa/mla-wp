@@ -118,7 +118,7 @@
      	 "mlaa/mla-wp-profession": "dev-master#329ccac",
 	 "mlaa/mla-allowed-tags": "dev-master#b302f21",
 	 "mlaa/mla-style-custom": "dev-master#f7fe644",
-	 "mlaa/style-center": "dev-master#670db23",
+	 "mlaa/style-center": "dev-master#18bc0b6",
 	 "wpackagist-theme/wp-bootstrap-starter":"3.0.19",
 	 "stuttter/wp-multi-network": "^2.2",
      	 "johnpbloch/wordpress": "5.2.3",
@@ -178,8 +178,7 @@
     "wpackagist-plugin/debug-bar-shortcodes": "^2.0",
     "wpackagist-plugin/debug-bar-sidebars-widgets": "^1.0",
     "wpackagist-plugin/debug-bar-transients": "^0.5.0",
-    "wpackagist-plugin/simply-show-ids": "^1.3",
-"wpackagist-plugin/widget-importer-exporter":"1.5.5"
+    "wpackagist-plugin/simply-show-ids": "^1.3"
   },
   "extra": {
     "installer-paths": {
