@@ -35,6 +35,10 @@
       "type": "vcs",
       "url": "git@github.com:mlaa/hc-styles.git"
     },
+{
+      "type": "vcs",
+      "url": "git@github.com:mlaa/re-style-center.git"
+    },
    {
       "type": "package",
       "package": {
@@ -74,6 +78,20 @@
         }
       }
     },
+	{
+      "type": "package",
+      "package": {
+        "name": "mlaa/re-style-center",
+        "version": "dev-develop",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:mlaa/re-style-center.git",
+          "type": "git",
+          "reference": "develop"
+        }
+      }
+    },
+
      {
 	"type":"package",
 	"package": {
@@ -119,6 +137,7 @@
 	 "mlaa/mla-allowed-tags": "dev-master#b302f21",
 	 "mlaa/mla-style-custom": "dev-develop#68eea07",
 	 "mlaa/style-center": "dev-develop#c8dc362",
+	 "mlaa/re-style-center":"dev-develop#92daf2e",
 	 "wpackagist-theme/wp-bootstrap-starter":"3.0.19",
 	 "stuttter/wp-multi-network": "^2.2",
          "johnpbloch/wordpress": "5.2.3",

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "be44437c396d345febe08d3f06e237c8",
-    "content-hash": "c69345927db60ebedb09ea0d0255f7ed",
+    "hash": "471f66a35688d3e6c49c4d2a0889db96",
+    "content-hash": "12a0428c09c2f119f3e61f4034940188",
     "packages": [
         {
             "name": "composer/installers",
@@ -329,6 +329,17 @@
                 "issues": "https://github.com/mlaa/mla-wp-profession/issues"
             },
             "time": "2019-12-10 15:03:36"
+        },
+        {
+            "name": "mlaa/re-style-center",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:mlaa/re-style-center.git",
+                "reference": "92daf2e"
+            },
+            "type": "wordpress-plugin",
+            "time": "2020-05-22 15:55:16"
         },
         {
             "name": "mlaa/style-center",
@@ -1733,6 +1744,7 @@
         "mlaa/mla-allowed-tags": 20,
         "mlaa/mla-style-custom": 20,
         "mlaa/style-center": 20,
+        "mlaa/re-style-center": 20,
         "uglyrobot/multisite-plugin-manager": 20
     },
     "prefer-stable": true,
