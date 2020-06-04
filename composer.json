@@ -120,6 +120,8 @@
     }
 	],
    "require": {
+        "wpackagist-plugin/co-authors-plus":"3.4.3",
+	"nsp/advanced-post-types-order":"3.8",
 	 "wpackagist-plugin/w3-total-cache":"^0.12.0",
 	"wpackagist-plugin/classic-editor":"1.5",
 	"wordpress/gutenberg":"3.8",

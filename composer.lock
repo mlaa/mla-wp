@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "471f66a35688d3e6c49c4d2a0889db96",
-    "content-hash": "12a0428c09c2f119f3e61f4034940188",
+    "hash": "9ee478f1eec7f1b3ec10545a537e718b",
+    "content-hash": "60a22a3fbeb2562a9df84d5fc5149425",
     "packages": [
         {
             "name": "composer/installers",
@@ -370,6 +370,17 @@
             "time": "2020-03-31 21:14:26"
         },
         {
+            "name": "nsp/advanced-post-types-order",
+            "version": "3.8",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/advanced-post-types-order.zip",
+                "reference": null,
+                "shasum": "3fc3592751cf195077692ee8f1ef21d9aa50c896"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
             "name": "stuttter/wp-multi-network",
             "version": "2.4.0",
             "source": {
@@ -675,6 +686,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/classic-editor/"
+        },
+        {
+            "name": "wpackagist-plugin/co-authors-plus",
+            "version": "3.4.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/co-authors-plus/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/co-authors-plus.zip?timestamp=1587414791",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/co-authors-plus/"
         },
         {
             "name": "wpackagist-plugin/custom-post-type-ui",
