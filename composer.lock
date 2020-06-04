@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d6fd9a1b60b0eda2d9ee9fd0d7b4d53e",
-    "content-hash": "a4ab82436fc077f375443116f2f0fbff",
+    "hash": "a190d590592e5e04adbab8c4f359b5e4",
+    "content-hash": "c405ce1021958b6f00d8b07460b6c966",
     "packages": [
         {
             "name": "composer/installers",
@@ -300,10 +300,10 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/mla-style-custom.git",
-                "reference": "6584ef7"
+                "reference": "6478cf8"
             },
             "type": "wordpress-plugin",
-            "time": "2019-10-10 18:11:14"
+            "time": "2020-06-04 18:57:21"
         },
         {
             "name": "mlaa/mla-wp-profession",
@@ -336,12 +336,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "5ddf50a"
+                "reference": "dbe160b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/5ddf50ad2e3d67d49af2716516fca3f4754fa1f8",
-                "reference": "5ddf50a",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/dbe160b0b7eefbd83f556f5c989651f359baa044",
+                "reference": "dbe160b",
                 "shasum": ""
             },
             "require": {
@@ -356,7 +356,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/staging",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2020-04-10 14:29:51"
+            "time": "2020-06-04 19:02:09"
         },
         {
             "name": "stuttter/wp-multi-network",
@@ -406,16 +406,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.15.0",
+            "version": "v1.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "4719fa9c18b0464d399f1a63bf624b42b6fa8d14"
+                "reference": "e94c8b1bbe2bc77507a1056cdb06451c75b427f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/4719fa9c18b0464d399f1a63bf624b42b6fa8d14",
-                "reference": "4719fa9c18b0464d399f1a63bf624b42b6fa8d14",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/e94c8b1bbe2bc77507a1056cdb06451c75b427f9",
+                "reference": "e94c8b1bbe2bc77507a1056cdb06451c75b427f9",
                 "shasum": ""
             },
             "require": {
@@ -427,7 +427,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.15-dev"
+                    "dev-master": "1.17-dev"
                 }
             },
             "autoload": {
@@ -460,7 +460,7 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2020-02-27 09:26:54"
+            "time": "2020-05-12 16:14:59"
         },
         {
             "name": "uglyrobot/multisite-plugin-manager",
@@ -475,20 +475,20 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v2.6.3",
+            "version": "v2.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "df4c4d08a639be4ef5d6d1322868f9e477553679"
+                "reference": "67d472b1794c986381a8950e4958e1adb779d561"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/df4c4d08a639be4ef5d6d1322868f9e477553679",
-                "reference": "df4c4d08a639be4ef5d6d1322868f9e477553679",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/67d472b1794c986381a8950e4958e1adb779d561",
+                "reference": "67d472b1794c986381a8950e4958e1adb779d561",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9",
+                "php": "^5.3.9 || ^7.0 || ^8.0",
                 "symfony/polyfill-ctype": "^1.9"
             },
             "require-dev": {
@@ -517,9 +517,14 @@
             ],
             "authors": [
                 {
+                    "name": "Graham Campbell",
+                    "email": "graham@alt-three.com",
+                    "homepage": "https://gjcampbell.co.uk/"
+                },
+                {
                     "name": "Vance Lucas",
                     "email": "vance@vancelucas.com",
-                    "homepage": "http://www.vancelucas.com"
+                    "homepage": "https://vancelucas.com/"
                 }
             ],
             "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
@@ -528,7 +533,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2020-04-12 15:11:38"
+            "time": "2020-05-02 13:38:00"
         },
         {
             "name": "wordpress/gutenberg",
@@ -562,15 +567,15 @@
         },
         {
             "name": "wpackagist-plugin/akismet",
-            "version": "4.1.4",
+            "version": "4.1.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/akismet/",
-                "reference": "tags/4.1.4"
+                "reference": "tags/4.1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/akismet.4.1.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/akismet.4.1.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -582,15 +587,15 @@
         },
         {
             "name": "wpackagist-plugin/autoptimize",
-            "version": "2.6.2",
+            "version": "2.7.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/autoptimize/",
-                "reference": "tags/2.6.2"
+                "reference": "tags/2.7.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autoptimize.2.6.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/autoptimize.2.7.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -822,15 +827,15 @@
         },
         {
             "name": "wpackagist-plugin/event-organiser",
-            "version": "3.9.0",
+            "version": "3.9.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/event-organiser/",
-                "reference": "tags/3.9.0"
+                "reference": "tags/3.9.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/event-organiser.3.9.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/event-organiser.3.9.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -883,7 +888,7 @@
         },
         {
             "name": "wpackagist-plugin/kadence-blocks",
-            "version": "1.7.21",
+            "version": "1.8.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/kadence-blocks/",
@@ -891,7 +896,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/kadence-blocks.zip?timestamp=1586814493",
+                "url": "https://downloads.wordpress.org/plugin/kadence-blocks.zip?timestamp=1590038305",
                 "reference": null,
                 "shasum": null
             },
@@ -923,15 +928,15 @@
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
-            "version": "3.4.24.1",
+            "version": "3.4.24.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ninja-forms/",
-                "reference": "tags/3.4.24.1"
+                "reference": "tags/3.4.24.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.4.24.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.4.24.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1043,15 +1048,15 @@
         },
         {
             "name": "wpackagist-plugin/redis-cache",
-            "version": "1.5.7",
+            "version": "1.6.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redis-cache/",
-                "reference": "tags/1.5.7"
+                "reference": "tags/1.6.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redis-cache.1.5.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/redis-cache.1.6.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1203,15 +1208,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-accessibility",
-            "version": "1.7.0",
+            "version": "1.7.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-accessibility/",
-                "reference": "tags/1.7.0"
+                "reference": "tags/1.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-accessibility.1.7.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-accessibility.1.7.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1303,15 +1308,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-polls",
-            "version": "2.75.4",
+            "version": "2.75.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-polls/",
-                "reference": "tags/2.75.4"
+                "reference": "tags/2.75.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-polls.2.75.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-polls.2.75.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1452,16 +1457,16 @@
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.5.4",
+            "version": "3.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "dceec07328401de6211037abbb18bda423677e26"
+                "reference": "73e2e7f57d958e7228fce50dc0c61f58f017f9f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/dceec07328401de6211037abbb18bda423677e26",
-                "reference": "dceec07328401de6211037abbb18bda423677e26",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/73e2e7f57d958e7228fce50dc0c61f58f017f9f6",
+                "reference": "73e2e7f57d958e7228fce50dc0c61f58f017f9f6",
                 "shasum": ""
             },
             "require": {
@@ -1499,7 +1504,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2020-01-30 22:20:29"
+            "time": "2020-04-17 01:09:41"
         },
         {
             "name": "wp-coding-standards/wpcs",
