@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "be44437c396d345febe08d3f06e237c8",
-    "content-hash": "c69345927db60ebedb09ea0d0255f7ed",
+    "hash": "a06e6ca0690c9489fe4b36c603e513a0",
+    "content-hash": "50c6b92983d2676cbe2f254595b6d5ac",
     "packages": [
         {
             "name": "composer/installers",
@@ -300,10 +300,10 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/mla-style-custom.git",
-                "reference": "68eea07"
+                "reference": "f821461"
             },
             "type": "wordpress-plugin",
-            "time": "2019-10-10 14:22:55"
+            "time": "2020-06-04 18:48:23"
         },
         {
             "name": "mlaa/mla-wp-profession",
@@ -336,12 +336,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "c8dc362"
+                "reference": "8ad9bbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/341a47a7ae75ea9fcd08730bbbab1af2aed55087",
-                "reference": "c8dc362",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/8ad9bbe5ee09cea9afb07714dd57ce6e7f11972c",
+                "reference": "8ad9bbe",
                 "shasum": ""
             },
             "require": {
@@ -356,7 +356,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/develop",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2020-03-31 21:14:26"
+            "time": "2020-06-04 15:49:06"
         },
         {
             "name": "stuttter/wp-multi-network",
@@ -567,15 +567,15 @@
         },
         {
             "name": "wpackagist-plugin/akismet",
-            "version": "4.1.5",
+            "version": "4.1.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/akismet/",
-                "reference": "tags/4.1.5"
+                "reference": "tags/4.1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/akismet.4.1.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/akismet.4.1.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -827,15 +827,15 @@
         },
         {
             "name": "wpackagist-plugin/event-organiser",
-            "version": "3.9.0",
+            "version": "3.9.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/event-organiser/",
-                "reference": "tags/3.9.0"
+                "reference": "tags/3.9.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/event-organiser.3.9.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/event-organiser.3.9.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1027,15 +1027,15 @@
         },
         {
             "name": "wpackagist-plugin/redis-cache",
-            "version": "1.5.9",
+            "version": "1.6.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redis-cache/",
-                "reference": "tags/1.5.9"
+                "reference": "tags/1.6.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redis-cache.1.5.9.zip",
+                "url": "https://downloads.wordpress.org/plugin/redis-cache.1.6.3.zip",
                 "reference": null,
                 "shasum": null
             },
