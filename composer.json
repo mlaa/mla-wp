@@ -102,6 +102,7 @@
     }
 	],
    "require": {
+	"wpackagist-plugin/w3-total-cache":"0.13.3",
 	 "wpackagist-plugin/classic-editor":"1.5",
 	 "wordpress/gutenberg":"3.8",
 	 "wpackagist-plugin/kadence-blocks":"1.6.2",
@@ -117,8 +118,8 @@
 	 "wpninjas/ninja-forms-pdf-submissions": "^3.0",
      	 "mlaa/mla-wp-profession": "dev-master#329ccac",
 	 "mlaa/mla-allowed-tags": "dev-master#b302f21",
-	 "mlaa/mla-style-custom": "dev-master#f7fe644",
-	 "mlaa/style-center": "dev-master#18bc0b6",
+	 "mlaa/mla-style-custom": "dev-master#5ab1435",
+	 "mlaa/style-center": "dev-master#6c7f6c6",
 	 "wpackagist-theme/wp-bootstrap-starter":"3.0.19",
 	 "stuttter/wp-multi-network": "^2.2",
      	 "johnpbloch/wordpress": "5.2.3",
