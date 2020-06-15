@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a190d590592e5e04adbab8c4f359b5e4",
-    "content-hash": "c405ce1021958b6f00d8b07460b6c966",
+    "hash": "8ec8d1b80c97eacedc5cb79aba175d33",
+    "content-hash": "254443736ed54345237548ab586715b3",
     "packages": [
         {
             "name": "composer/installers",
@@ -300,10 +300,10 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/mla-style-custom.git",
-                "reference": "6478cf8"
+                "reference": "9c5d8b6"
             },
             "type": "wordpress-plugin",
-            "time": "2020-06-04 18:57:21"
+            "time": "2020-06-15 21:11:07"
         },
         {
             "name": "mlaa/mla-wp-profession",
@@ -475,26 +475,26 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v2.6.4",
+            "version": "v2.6.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "67d472b1794c986381a8950e4958e1adb779d561"
+                "reference": "2e977311ffb17b2f82028a9c36824647789c6365"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/67d472b1794c986381a8950e4958e1adb779d561",
-                "reference": "67d472b1794c986381a8950e4958e1adb779d561",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/2e977311ffb17b2f82028a9c36824647789c6365",
+                "reference": "2e977311ffb17b2f82028a9c36824647789c6365",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.3.9 || ^7.0 || ^8.0",
-                "symfony/polyfill-ctype": "^1.9"
+                "symfony/polyfill-ctype": "^1.16"
             },
             "require-dev": {
                 "ext-filter": "*",
                 "ext-pcre": "*",
-                "phpunit/phpunit": "^4.8.35 || ^5.0"
+                "phpunit/phpunit": "^4.8.35 || ^5.7.27"
             },
             "suggest": {
                 "ext-filter": "Required to use the boolean validator.",
@@ -533,7 +533,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2020-05-02 13:38:00"
+            "time": "2020-06-02 14:06:52"
         },
         {
             "name": "wordpress/gutenberg",
@@ -587,15 +587,15 @@
         },
         {
             "name": "wpackagist-plugin/autoptimize",
-            "version": "2.7.2",
+            "version": "2.7.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/autoptimize/",
-                "reference": "tags/2.7.2"
+                "reference": "tags/2.7.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autoptimize.2.7.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/autoptimize.2.7.3.zip",
                 "reference": null,
                 "shasum": null
             },

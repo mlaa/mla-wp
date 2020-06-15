@@ -117,7 +117,7 @@
 	"wpninjas/ninja-forms-pdf-submissions": "^3.0",
         "mlaa/mla-wp-profession": "dev-staging#8d73de5",
 	"mlaa/mla-allowed-tags": "dev-master#06bb021",
-	"mlaa/mla-style-custom": "dev-staging#6478cf8",
+	"mlaa/mla-style-custom": "dev-staging#9c5d8b6",
 	"mlaa/style-center": "dev-staging#dbe160b",
 	"wpackagist-theme/wp-bootstrap-starter":"3.0.19",
 	"stuttter/wp-multi-network": "^2.2",
