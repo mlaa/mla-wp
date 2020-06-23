@@ -2,6 +2,9 @@
 $root_dir = dirname(__DIR__);
 $webroot_dir = $root_dir . '/web';
 
+/** Enable W3 Total Cache */
+define('WP_CACHE', true); // Added by W3 Total Cache
+
 /**
  * Use Dotenv to set required environment variables and load .env file in root
  */
