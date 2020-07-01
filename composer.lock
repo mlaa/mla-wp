@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ef32cd99240964d364479f2d7108ab7d",
-    "content-hash": "4bf6f4a0bdb756b6e6472945a6a15682",
+    "hash": "48aa8c70a31b176feb1fe464fd322477",
+    "content-hash": "1480b6a96187d7ac90b1fd85bb5f7ba4",
     "packages": [
         {
             "name": "composer/installers",
@@ -279,12 +279,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/mla-allowed-tags.git",
-                "reference": "b302f21"
+                "reference": "b114f3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/mla-allowed-tags/zipball/06bb0213598306e838b5f03f1447c6e89c6a9903",
-                "reference": "b302f21",
+                "url": "https://api.github.com/repos/mlaa/mla-allowed-tags/zipball/b114f3fa0e77dcde98dd03584ca52130b9abd6b4",
+                "reference": "b114f3f",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -292,7 +292,7 @@
                 "source": "https://github.com/mlaa/mla-allowed-tags/tree/master",
                 "issues": "https://github.com/mlaa/mla-allowed-tags/issues"
             },
-            "time": "2018-05-23 16:03:27"
+            "time": "2020-07-01 18:37:24"
         },
         {
             "name": "mlaa/mla-style-custom",
