@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "48aa8c70a31b176feb1fe464fd322477",
-    "content-hash": "1480b6a96187d7ac90b1fd85bb5f7ba4",
+    "hash": "75b95b5d3c059876724ca9f13e04e642",
+    "content-hash": "526fa1a6c7132f1298ebf62aff427385",
     "packages": [
         {
             "name": "composer/installers",
@@ -311,12 +311,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/mla-wp-profession.git",
-                "reference": "329ccac"
+                "reference": "10c51ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/mla-wp-profession/zipball/329ccac3d7d6aa647d52d78fea7dd4ff3d7174bd",
-                "reference": "329ccac",
+                "url": "https://api.github.com/repos/mlaa/mla-wp-profession/zipball/10c51ad53bb701746c057c5bd0e75e591d214c21",
+                "reference": "10c51ad",
                 "shasum": ""
             },
             "require": {
@@ -328,7 +328,7 @@
                 "source": "https://github.com/mlaa/mla-wp-profession/tree/master",
                 "issues": "https://github.com/mlaa/mla-wp-profession/issues"
             },
-            "time": "2020-01-02 16:49:52"
+            "time": "2020-09-23 19:08:21"
         },
         {
             "name": "mlaa/style-center",
@@ -336,12 +336,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "6c7f6c6"
+                "reference": "819d044"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/6c7f6c6bc5343456c93b3ea83248af0b103e153f",
-                "reference": "6c7f6c6",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/819d04459a7edbc098f216b98d496a72dc31e556",
+                "reference": "819d044",
                 "shasum": ""
             },
             "require": {
@@ -356,20 +356,20 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2020-06-04 19:21:49"
+            "time": "2020-09-23 17:33:57"
         },
         {
             "name": "mpdf/mpdf",
-            "version": "v8.0.6",
+            "version": "v8.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mpdf/mpdf.git",
-                "reference": "d27aa93513b915896fa7cb53901d3122e286f811"
+                "reference": "7daf07f15334ed59a276bd52131dcca48794cdbd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mpdf/mpdf/zipball/d27aa93513b915896fa7cb53901d3122e286f811",
-                "reference": "d27aa93513b915896fa7cb53901d3122e286f811",
+                "url": "https://api.github.com/repos/mpdf/mpdf/zipball/7daf07f15334ed59a276bd52131dcca48794cdbd",
+                "reference": "7daf07f15334ed59a276bd52131dcca48794cdbd",
                 "shasum": ""
             },
             "require": {
@@ -425,7 +425,7 @@
                 "php",
                 "utf-8"
             ],
-            "time": "2020-05-25 09:08:39"
+            "time": "2020-07-15 09:48:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -583,16 +583,16 @@
         },
         {
             "name": "setasign/fpdi",
-            "version": "v2.3.3",
+            "version": "v2.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Setasign/FPDI.git",
-                "reference": "50c388860a73191e010810ed57dbed795578e867"
+                "reference": "2b5fb811c04f937ef257ef3f798cebeded33c136"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Setasign/FPDI/zipball/50c388860a73191e010810ed57dbed795578e867",
-                "reference": "50c388860a73191e010810ed57dbed795578e867",
+                "url": "https://api.github.com/repos/Setasign/FPDI/zipball/2b5fb811c04f937ef257ef3f798cebeded33c136",
+                "reference": "2b5fb811c04f937ef257ef3f798cebeded33c136",
                 "shasum": ""
             },
             "require": {
@@ -606,6 +606,7 @@
                 "phpunit/phpunit": "~5.7",
                 "setasign/fpdf": "~1.8",
                 "setasign/tfpdf": "1.31",
+                "squizlabs/php_codesniffer": "^3.5",
                 "tecnickcom/tcpdf": "~6.2"
             },
             "suggest": {
@@ -640,7 +641,7 @@
                 "fpdi",
                 "pdf"
             ],
-            "time": "2020-04-28 12:40:35"
+            "time": "2020-08-27 06:55:47"
         },
         {
             "name": "stuttter/wp-multi-network",
@@ -690,16 +691,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.17.1",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "2edd75b8b35d62fd3eeabba73b26b8f1f60ce13d"
+                "reference": "1c302646f6efc070cd46856e600e5e0684d6b454"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/2edd75b8b35d62fd3eeabba73b26b8f1f60ce13d",
-                "reference": "2edd75b8b35d62fd3eeabba73b26b8f1f60ce13d",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/1c302646f6efc070cd46856e600e5e0684d6b454",
+                "reference": "1c302646f6efc070cd46856e600e5e0684d6b454",
                 "shasum": ""
             },
             "require": {
@@ -711,7 +712,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-master": "1.18-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -748,7 +749,7 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2020-06-06 08:46:27"
+            "time": "2020-07-14 12:35:20"
         },
         {
             "name": "uglyrobot/multisite-plugin-manager",
@@ -763,21 +764,21 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v2.6.5",
+            "version": "v2.6.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "2e977311ffb17b2f82028a9c36824647789c6365"
+                "reference": "e1d57f62db3db00d9139078cbedf262280701479"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/2e977311ffb17b2f82028a9c36824647789c6365",
-                "reference": "2e977311ffb17b2f82028a9c36824647789c6365",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/e1d57f62db3db00d9139078cbedf262280701479",
+                "reference": "e1d57f62db3db00d9139078cbedf262280701479",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.3.9 || ^7.0 || ^8.0",
-                "symfony/polyfill-ctype": "^1.16"
+                "symfony/polyfill-ctype": "^1.17"
             },
             "require-dev": {
                 "ext-filter": "*",
@@ -821,7 +822,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2020-06-02 14:06:52"
+            "time": "2020-07-14 17:54:18"
         },
         {
             "name": "wordpress/gutenberg",
@@ -875,15 +876,15 @@
         },
         {
             "name": "wpackagist-plugin/autoptimize",
-            "version": "2.7.3",
+            "version": "2.7.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/autoptimize/",
-                "reference": "tags/2.7.3"
+                "reference": "tags/2.7.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autoptimize.2.7.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/autoptimize.2.7.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1115,15 +1116,15 @@
         },
         {
             "name": "wpackagist-plugin/event-organiser",
-            "version": "3.9.1",
+            "version": "3.10.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/event-organiser/",
-                "reference": "tags/3.9.1"
+                "reference": "tags/3.10.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/event-organiser.3.9.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/event-organiser.3.10.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1135,15 +1136,15 @@
         },
         {
             "name": "wpackagist-plugin/events-manager",
-            "version": "5.9.7.3",
+            "version": "5.9.8.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/events-manager/",
-                "reference": "tags/5.9.7.3"
+                "reference": "tags/5.9.8.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/events-manager.5.9.7.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/events-manager.5.9.8.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1216,15 +1217,15 @@
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
-            "version": "3.4.24.3",
+            "version": "3.4.30",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ninja-forms/",
-                "reference": "tags/3.4.24.3"
+                "reference": "tags/3.4.30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.4.24.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.4.30.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1476,15 +1477,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-accessibility",
-            "version": "1.7.1",
+            "version": "1.7.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-accessibility/",
-                "reference": "tags/1.7.1"
+                "reference": "tags/1.7.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-accessibility.1.7.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-accessibility.1.7.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1616,15 +1617,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-to-twitter",
-            "version": "3.4.6",
+            "version": "3.4.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-to-twitter/",
-                "reference": "tags/3.4.6"
+                "reference": "tags/3.4.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-to-twitter.3.4.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-to-twitter.3.4.9.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1714,16 +1715,16 @@
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.5.5",
+            "version": "3.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "73e2e7f57d958e7228fce50dc0c61f58f017f9f6"
+                "reference": "e97627871a7eab2f70e59166072a6b767d5834e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/73e2e7f57d958e7228fce50dc0c61f58f017f9f6",
-                "reference": "73e2e7f57d958e7228fce50dc0c61f58f017f9f6",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/e97627871a7eab2f70e59166072a6b767d5834e0",
+                "reference": "e97627871a7eab2f70e59166072a6b767d5834e0",
                 "shasum": ""
             },
             "require": {
@@ -1761,7 +1762,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2020-04-17 01:09:41"
+            "time": "2020-08-10 04:50:15"
         },
         {
             "name": "wp-coding-standards/wpcs",
